@@ -35,7 +35,8 @@ jobs:
       
       - name : Build page
         run : npm run build
-        env : Node_ENV : production
+        env : 
+          Node_ENV : production
 
       - name : Deploy to gh-pages
         uses : peaceiris/actions-gh-pages@v3
