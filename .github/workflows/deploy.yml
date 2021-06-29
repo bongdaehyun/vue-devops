@@ -31,7 +31,7 @@ jobs:
           node-version : 14.x
       
       - name : install dependencies
-        run : npm intall
+        run : npm i
       
       - name : Build page
         run : npm run build
